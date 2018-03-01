@@ -19,6 +19,13 @@ module.exports = function makeExchange(currency) {
         }
     }
 
+    for (let i = 0; i < coinsCount.length; i++) {
+        if (coinsCount[i] > 0) {
+            exchange[coinsString[i]] = coinsCount[i];
+
+        }
+    }
+
 
     return exchange;
 }
