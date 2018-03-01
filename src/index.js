@@ -1,7 +1,7 @@
 // PLEASE DON'T change function name
 module.exports = function makeExchange(currency) {
     let errorMsg = { error: "You are rich, my friend! We don't have so much coins for exchange" },
-        coinsString = ['H', 'Q', 'P', 'N', 'P'],
+        coinsString = ['H', 'Q', 'D', 'N', 'P'],
         coinsValue = [50, 25, 10, 5, 1],
         coinsCount = new Array(5).fill(0),
         exchange = {};
